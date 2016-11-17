@@ -5,6 +5,8 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
+
 /**
  * Created by lpeiz on 2016/11/17.
  */
@@ -22,7 +24,7 @@ public interface QuestionDAO {
 //    @Select({"select",})
 //使用xml
 
-    Question selectLatestQuestions(@Param("userId") int userId,
+    List<Question> selectLatestQuestions(@Param("userId") int userId,
                                          @Param("offset") int offset,
                                          @Param("limit") int limit);
 
