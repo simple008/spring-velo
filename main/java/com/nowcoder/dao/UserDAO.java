@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.*;
 /**
  * Created by lpeiz on 2016/11/17.
  */
+
 @Mapper            //指定是mybaits 关联的dao   定义在dao层     写接口 insert update 等等
 public interface UserDAO {
     String TABLE_NAME = " user ";
@@ -26,3 +27,5 @@ public interface UserDAO {
     void deleteById(int id);
 
 }
+
+

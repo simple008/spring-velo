@@ -4,8 +4,9 @@ import java.util.Date;
 
 /**
  * Created by lpeiz on 2016/11/17.
- * 需要创建question表 建这个model
- */
+ * 需要创建question表 建这个model*/
+
+
 public class Question {
     private int id;
     private String title;
@@ -62,4 +63,5 @@ public class Question {
         this.commentCount = commentCount;
     }
 }
+
 

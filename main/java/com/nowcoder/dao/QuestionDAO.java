@@ -8,8 +8,9 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * Created by lpeiz on 2016/11/17.
- */
+ * Created by lpeiz on 2016/11/17.*/
+
+
 @Mapper
 
 public interface QuestionDAO {
@@ -29,3 +30,5 @@ public interface QuestionDAO {
                                          @Param("limit") int limit);
 
 }
+
+
